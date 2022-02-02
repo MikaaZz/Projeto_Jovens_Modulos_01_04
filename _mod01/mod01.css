@@ -1,5 +1,4 @@
 /* CLASSES GERAIS */
-
 :root{
     --color-yellow:#FFCE05;
     --color-blue:#303192;
@@ -7,26 +6,19 @@
     --color-font:#363636;
     --color-shadow:#b6b6b6;
 }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-
 html{
     background-color: var(--color-white);
-
 }
-
 body{
     overflow-x: hidden;
     min-height: 100vh;
-
 }
-
 h1{
     text-align: left;
     padding-left: 2%;
@@ -34,17 +26,14 @@ h1{
     color: #303192;
     font-weight: bold;
 }
-
 h2 {
     text-align: center;
     padding-left: 0%;
     font-size: 2.4rem;
     color: #303192;
     padding-top: 0%;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
-
 h3{
     font-size: 1.8rem;
     color: #303192;
@@ -52,73 +41,52 @@ h3{
     margin: 0;
     text-align: center;
 }
-
 h4{
     color:#303192;
     font-size: 1.8rem;
     text-align: center;
-    
     font-weight: bold;
 }
-
 p{
     color:var(--color-font);
     font-size: 1.2rem;
-
 }
-
 .h1{
     text-align: center;
     padding: 0;
     font-size: 2.4rem;
     color: #303192;
     font-weight: bold
-
 }
-
 .h2-video{
     padding-top: 2.5%;
-
 }
-
 .p-blue{
     color: var(--color-blue);
 }
-
 .espanhol-div-geral{
     width: 100%;
     scroll-behavior: smooth;
     margin: 0 auto;
 }
-
 .container-top-bar{
     display: flex;
-
 }
-
 .yellow-rigth-bar{
     background-color: var(--color-yellow);
     width: 100%;
     height: 1.5rem;
-
 }
-
 .blue-left-bar{
     background-color: #303192;
     width: 50%;
     height: 1.5rem;
-
 }
-
 .bar-separation-blue{
     border-bottom: 0.2rem dashed var(--color-blue);
-
 }
-
 /* CLASSES GERAIS */
-
 /* VIDEO E H5P */
-
 .h5p{
     max-width: 750px;
     max-height: 450px;
@@ -132,19 +100,17 @@ p{
 
 .video {
     max-width: 700px;
-    max-height: 450px;
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 2%;
 }
-
 .video iframe{
     border-radius: 1rem;
+    width: 100%;
+    height: 430px;
 }
-
 .podcast {
     max-width: 700px;
     display: flex;
@@ -154,11 +120,8 @@ p{
     margin: auto;
     padding: 2%;
 }
-
 /* VIDEO E H5P */
-
 /* BARRAS AMARELAS DOS TITULOS */
-
 .barra-titulos-vertical{
     margin-top: 0%;
     height: 9rem;
@@ -167,9 +130,7 @@ p{
     float: left;
     border-radius: 25px;
     margin-left: 0%
-
 }
-
 .barra-titulos-vertical-menor{
     margin-top: 0%;
     height: 3rem;
@@ -178,9 +139,7 @@ p{
     float: left;
     border-radius: 25px;
     margin-left: 0%
-
 }
-
 .barra-titulos-horizontal{
     margin-top: 0%;
     height: 0.5rem;
@@ -188,9 +147,7 @@ p{
     background:var(--color-yellow);
     border-radius: 25px;
     margin-left: 0%;
-    
 }
-
 .barra-titulos-horizontal-modulos{
     margin-top: 0%;
     height: 0.5rem;
@@ -199,67 +156,48 @@ p{
     border-radius: 25px;
     margin-left: 0%;
 }
-
 /* BARRAS AMARELAS DOS TITULOS */
-
 /* CONTAINERS*/
-
 .container-paragraph{
     text-align: justify;
     padding-left: 4%;
     margin: 0%;
 }
-
 .container-titles{
     width: 80%;
-
 }
-
 .container-flex-horizontal-titulos{
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
-    
-    
 }
-
 .container-titulo-modulos{
     width: 100%;
     display: flex;
     justify-content: center; 
 }
-
 .container-titulos-nomes-atividades{
     padding-top: 2%;
-    
 }
-
 /* CONTAINERS*/
-
 /* CLASSES DISTANCIAMENTO */
-
 .space-padding-2-por{
     padding: 2%;
 
 }
-
 .space-content-top {
     margin-bottom: 2rem;
 }
-
 .margin-text {
     margin-left: 3rem;
 }
-
 .space-content-bottom {
     margin-bottom: 2rem;
 }
-
 .div-pad-2-por{
     padding: 2%;
 }
-
 .div-pad-4-por{
     display: flex;
     flex-wrap: wrap;
@@ -267,17 +205,13 @@ p{
     padding-left: 4%;
     padding-top: 2%;
 }
-
 .paragraph-pad{
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 4%;
 }
-
 /* CLASSES DISTANCIAMENTO */
-
 /*CLASSES DA IMAGEM DOS PERSONAGENS QUE VAI PRA BAIXO*/
-
 .container-escrita-imagem{
     display: flex;
     flex-wrap: wrap;
@@ -285,7 +219,6 @@ p{
     align-items: center;
     justify-content: space-between;
 }
-
 .container-escrita{
     display: flex;
     flex-wrap: wrap;
@@ -294,41 +227,29 @@ p{
     padding-left: 4%;
     margin: 0;
 }
-
 .p-escrita-imagem{
     text-align: justify;
 }
-
 .p-escrita-imagem-azul{
     color:var(--color-blue);
 }
-
 .container-imagem-personagens-caem{
     display:flexbox;
     flex-wrap: wrap;
     margin: auto;
     width: 30rem;
 }
-
 .container-imagem-personagens-caem img{
     width: 100%;
     justify-content: right;
-    
-
 }
-
 /* CLASSES DA IMAGEM DOS PERSONAGENS QUE VAI PRA BAIXO */
-
 /* CLASSES EXTRAS */
-
 .p{
     padding-left:4%;
 }
-
 /* CLASSES EXTRAS */
-
 /* BOTOES COM TRAÇADO AMARELO */
-
 .container-botoes{
     display: flex;
     flex-wrap: wrap;
@@ -338,7 +259,6 @@ p{
     padding: 2%;
     
 }
-
 .container-traçado-amarelo{
     height: auto;
     width: 40rem;
@@ -346,7 +266,39 @@ p{
     border: 0.3rem dashed var(--color-yellow);
     
 }
-
+.container-traçado-amarelo-visita{
+    height: auto;
+    width: 40rem;
+    border-radius: 25rem;
+    border: 0.3rem dashed var(--color-yellow);
+}
+.container-botao-azul-visita{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.container-botao-azul-visita button{
+    background-color: #303192;
+    color: var(--color-white);
+    text-align: center;
+    width: 10rem;
+    height: 4rem;
+    border:none;
+    border-radius: 10rem;
+    cursor: pointer;
+    margin: 0;
+    transition: all 250ms ease-in-out;
+}
+.container-botao-azul-visita button:hover{
+    background-color: var(--color-yellow);
+    color: var(--color-blue);
+    transform: scale(1.005);
+    box-shadow: 1px 0.5px 6px var(--color-shadow);
+}
 .container-botao-azul{
     display: flex;
     flex-wrap: wrap;
@@ -356,7 +308,6 @@ p{
     padding-top: 1.5%;
     padding-bottom: 1.5%;
 }
-
 .container-botao-azul button{
     background-color: #303192;
     color: var(--color-white);
@@ -370,18 +321,15 @@ p{
     transition: all 250ms ease-in-out;
     
 }
-
 .container-botao-azul button:hover{
     background-color: var(--color-yellow);
     color: var(--color-blue);
     transform: scale(1.005);
     box-shadow: 1px 0.5px 6px var(--color-shadow);
 }
-
 .b{
     font-size: 1.8rem;
 }
-
 .container-escrita-ebook-barra{
     display: flex;
     justify-items: left;
@@ -389,7 +337,6 @@ p{
     justify-content: left;
     text-align: left;
 }
-
 .barra-escrita-ebook{
     height: 0.3rem;
     width: 6rem;
@@ -398,11 +345,8 @@ p{
     margin: 0;
     padding-left: 5rem;
 }
-
 /* BOTOES COM TRAÇADO AMARELO */
-
 /*BOTAO E IMAGEM AVALIAÇÃO FINAL*/
-
 .container-botao-e-imagem-final{
     padding-bottom: 2%;
     display: flex;
@@ -410,7 +354,6 @@ p{
     justify-content: center;
     align-items: center;
 }
-
 .container-imagem-final{
     display: flex;
     flex-wrap: wrap;
@@ -418,21 +361,17 @@ p{
     padding-top: 0%;
     margin: 0;
 }
-
 .container-imagem-final img{
     width: 100%;
 }
-
 .container-botoes-final{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-items: center;
     justify-content: center;
     margin: 2%;
     max-width: 100%;
 }
-
 .container-traçado-amarelo-final{
     
     height: auto;
@@ -441,7 +380,6 @@ p{
     border: 0.3rem dashed var(--color-yellow);
     
 }
-
 .container-botao-azul-final{
     display: flex;
     flex-wrap: wrap;
@@ -452,7 +390,6 @@ p{
     padding-bottom: 1.5%;
     
 }
-
 .container-botao-azul-final button{
     background-color: #303192;
     color: var(--color-white);
@@ -466,36 +403,27 @@ p{
     transition: all 250ms ease-in-out;
     
 }
-
 .container-botao-azul-final button:hover{
     background-color: var(--color-yellow);
     color: var(--color-blue);
     transform: scale(1.005);
     box-shadow: 1px 0.5px 6px var(--color-shadow);
 }
-
 .b{
     font-size: 1.8rem;
 }
-
-
-
 /*BOTAO E IMAGEM AVALIAÇÃO FINAL*/
-
 /* BOTAO DE VOLTAR INTRODUÇÃO */
-
 .container-escrita-navegation{
     display:flex ;
     flex-wrap:wrap;
     padding-top: 2%;
     justify-content: center;
 }
-
 .h1-navegation{
     text-align: center;
     padding: 0;
 }
-
 .container-volver-introdução{
     display: flex;
     flex-wrap: wrap;
@@ -505,11 +433,9 @@ p{
     padding-bottom: 2%;
     margin: auto;
 }
-
 .volver-introdução{
     margin: auto;
 }
-
 .volver-introdução button{
     background: var(--color-blue);
     color: var(--color-white);
@@ -521,37 +447,28 @@ p{
     cursor: pointer;
     transition: all 250ms ease-in-out;
 }
-
 .volver-introdução button:hover{
     background-color: var(--color-yellow);
     color: var(--color-blue);
     transform: scale(1.005);
     box-shadow: 1px 0.5px 6px var(--color-shadow);
 }
-
 .b{
     font-size: 1.8rem;
 }
-
-
-
 /* BOTAO DE VOLTAR INTRODUÇÃO */
-
 /* BOTAO CARGA E DESCARGA*/
-
 .container-carga-descarga{
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-
 .content-carga-descarga{
     display: inline;
     max-width: 600px;
     padding-top: 2%;
 }
-
 .botao-descarga-carga-traçado{
     height: 18rem;
     width: 22rem;
@@ -564,7 +481,6 @@ p{
     border: 4px dashed #FFCE05;
     border-radius: 68px;
 }
-
 .botao-descarga-carga-traçado button{
     background: var(--color-blue);
     color: var(--color-white);
@@ -576,13 +492,192 @@ p{
     cursor: pointer;
     transition: all 250ms ease-in-out;
 }
-
 .botao-descarga-carga-traçado button:hover{
     background-color: var(--color-yellow);
     color: var(--color-blue);
     transform: scale(1.005);
     box-shadow: 1px 0.5px 6px var(--color-shadow);
 }
-
-
 /* BOTAO CARGA E DESCARGA*/
+@media screen and (max-width: 700px) {
+    h1{
+        text-align: center;
+        padding: 2% 0%;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        margin: auto;
+    }
+    .p-escrita-imagem{
+        text-align: center;
+    }
+    .container-escrita{
+        padding-left: 0em;
+        margin: auto;
+        width: 100%;
+    }
+    .barra-titulos-vertical{
+    display: none;
+    }
+
+    .content-text-aling {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    }
+    .barra-titulos-vertical-menor{
+        display: none;
+    }
+
+    .space-padding-2-por{
+        padding: 0em;
+    }
+    .container-titles{
+        width: 100%;
+        margin: auto;
+    }
+    .container-personagem{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0em;
+        margin: 1em;
+    }
+    .container-personagem-reverse{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px;
+        margin: 1em;
+    }
+    .reverseTitle{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .p-nome-personagem{
+        text-align: center;
+    }
+    .barra-escrita-personagem{
+        border-radius: 1rem;
+        padding: 2%;
+    }
+    .barra-escrita-personagem p{
+        font-size: 16px;
+    }
+    .container-traçado-amarelo{
+        height: 9rem;
+        width: 90%;
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+        border-radius:2rem;
+    }
+    .barra-titulos-horizontal-modulos{
+        margin: 2%;
+    }
+    .container-botao-azul{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-botao-azul button{
+        width: 8rem;
+        height: 2rem;
+    }
+    .container-botao-azul a{
+        padding-top: 2%;
+    }
+    .b{
+        font-size: 1.2rem;
+    }
+    .volver-introdução button{
+        width: 18rem;
+    }
+    .container-botao-e-imagem-final{
+        flex-direction: column;
+    }
+    .container-traçado-amarelo-final{
+        height: 9rem;
+        width: 52rem;
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+        border-radius:2rem;
+    }
+    .container-botao-azul-final{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-botao-azul-final button{
+        width: 8rem;
+        height: 2rem;
+    }
+    .container-traçado-amarelo-visita{
+        height: 12rem;
+        width: 52rem;
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+        border-radius:2rem;
+    }
+    .container-botao-azul-visita{
+        flex-direction: column;
+    }
+    .container-botao-azul-visita button{
+        width: 8rem;
+        height: 2rem;
+    }
+    .video iframe{
+        height: 340px;
+    }
+}
+@media screen and (max-width: 450px) {
+    h1{
+        text-align: center;
+        padding: 2% 0%;
+        font-size: 22px;
+    }
+    h2{
+        text-align: center;
+        font-size: 20px;
+    }
+    h4{
+        text-align: center;
+        font-size: 20px;
+    }
+    p{
+        text-align: center;
+        margin: auto;
+        font-size: 16px;
+    }
+
+
+    .container-traçado-amarelo{
+        height: 10rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .video iframe{
+        height: 280px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .video iframe{
+        height: 170px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .video iframe{
+        height: 150px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .video iframe{
+        height: 120px;
+    }
+}
